@@ -1,0 +1,132 @@
+Processing 11 files
+Start Processing: net/michaelsebero/noworldgen5you/NoWorldgen5You.java
+Import: org.apache.logging.log4j.LogManager
+Import: org.apache.logging.log4j.Logger
+Import: net.michaelsebero.noworldgen5you.world.gen.MapGenEmpty
+Import: net.michaelsebero.noworldgen5you.world.gen.MapGenEndCityEmpty
+Import: net.michaelsebero.noworldgen5you.world.gen.MapGenFortressEmpty
+Import: net.michaelsebero.noworldgen5you.world.gen.MapGenMineshaftEmpty
+Import: net.michaelsebero.noworldgen5you.world.gen.MapGenOceanMonumentEmpty
+Import: net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty
+Import: net.michaelsebero.noworldgen5you.world.gen.MapGenStrongholdEmpty
+Import: net.michaelsebero.noworldgen5you.world.gen.MapGenVillageEmpty
+Import: net.michaelsebero.noworldgen5you.world.gen.MapGenWoodlandMansion
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraftforge.event.terraingen.InitMapGenEvent
+Import: net.minecraftforge.event.terraingen.PopulateChunkEvent.Populate
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fml.common.Mod.EventHandler
+Import: net.minecraftforge.fml.common.event.FMLFingerprintViolationEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.eventhandler.Event.Result
+Import: net.minecraftforge.fml.common.eventhandler.EventPriority
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+End  Processing: net/michaelsebero/noworldgen5you/NoWorldgen5You.java
+
+Start Processing: net/michaelsebero/noworldgen5you/WorldgenConfig.java
+New Key: class net/minecraftforge/event/terraingen/InitMapGenEvent
+New Key: class net/minecraftforge/event/terraingen/InitMapGenEvent
+New Key: class net/minecraftforge/event/terraingen/InitMapGenEvent
+New Key: class net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty
+New Key: class net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty
+New Key: class net/minecraftforge/event/terraingen/PopulateChunkEvent/Populate
+New Key: class net/minecraftforge/event/terraingen/PopulateChunkEvent/Populate
+New Key: class net/minecraftforge/event/terraingen/PopulateChunkEvent/Populate
+Import: java.io.File
+Import: java.util.HashMap
+Import: java.util.Map
+Import: net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty
+Import: net.minecraftforge.common.config.Configuration
+Import: net.minecraftforge.event.terraingen.InitMapGenEvent
+Import: net.minecraftforge.event.terraingen.PopulateChunkEvent.Populate
+End  Processing: net/michaelsebero/noworldgen5you/WorldgenConfig.java
+
+Start Processing: net/michaelsebero/noworldgen5you/world/gen/MapGenEmpty.java
+Rename method net/minecraft/world/gen/MapGenBase/generate (Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V[254,262]::generate->func_186125_a
+Import: net.minecraft.world.World
+Import: net.minecraft.world.chunk.ChunkPrimer
+Import: net.minecraft.world.gen.MapGenBase
+End  Processing: net/michaelsebero/noworldgen5you/world/gen/MapGenEmpty.java
+
+Start Processing: net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java
+FOUND CONSTR method net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty/MapGenEndCityEmpty ()V net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty
+Rename method net/minecraft/world/gen/MapGenBase/generate (Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V[341,349]::generate->func_186125_a
+Rename method net/minecraft/world/gen/structure/MapGenStructure/canSpawnStructureAtCoords (II)Z[448,473]::canSpawnStructureAtCoords->func_75047_a
+Import: net.minecraft.world.World
+Import: net.minecraft.world.chunk.ChunkPrimer
+Import: net.minecraft.world.gen.structure.MapGenEndCity
+End  Processing: net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java
+
+Start Processing: net/michaelsebero/noworldgen5you/world/gen/MapGenFortressEmpty.java
+Rename method net/minecraft/world/gen/MapGenBase/generate (Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V[288,296]::generate->func_186125_a
+Rename method net/minecraft/world/gen/structure/MapGenStructure/canSpawnStructureAtCoords (II)Z[395,420]::canSpawnStructureAtCoords->func_75047_a
+Import: net.minecraft.world.World
+Import: net.minecraft.world.chunk.ChunkPrimer
+Import: net.minecraft.world.gen.structure.MapGenNetherBridge
+End  Processing: net/michaelsebero/noworldgen5you/world/gen/MapGenFortressEmpty.java
+
+Start Processing: net/michaelsebero/noworldgen5you/world/gen/MapGenMineshaftEmpty.java
+Rename method net/minecraft/world/gen/MapGenBase/generate (Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V[283,291]::generate->func_186125_a
+Rename method net/minecraft/world/gen/structure/MapGenStructure/canSpawnStructureAtCoords (II)Z[390,415]::canSpawnStructureAtCoords->func_75047_a
+Import: net.minecraft.world.World
+Import: net.minecraft.world.chunk.ChunkPrimer
+Import: net.minecraft.world.gen.structure.MapGenMineshaft
+End  Processing: net/michaelsebero/noworldgen5you/world/gen/MapGenMineshaftEmpty.java
+
+Start Processing: net/michaelsebero/noworldgen5you/world/gen/MapGenOceanMonumentEmpty.java
+Rename method net/minecraft/world/gen/MapGenBase/generate (Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V[301,309]::generate->func_186125_a
+Rename method net/minecraft/world/gen/structure/MapGenStructure/canSpawnStructureAtCoords (II)Z[408,433]::canSpawnStructureAtCoords->func_75047_a
+Import: net.minecraft.world.World
+Import: net.minecraft.world.chunk.ChunkPrimer
+Import: net.minecraft.world.gen.structure.StructureOceanMonument
+End  Processing: net/michaelsebero/noworldgen5you/world/gen/MapGenOceanMonumentEmpty.java
+
+Start Processing: net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java
+Rename method net/minecraft/world/gen/structure/MapGenStructure/canSpawnStructureAtCoords (II)Z[510,535]::canSpawnStructureAtCoords->func_75047_a
+Rename field net/minecraft/world/gen/MapGenBase/world[590,595]::world->field_75039_c
+Rename field net/minecraft/world/gen/MapGenBase/world[620,625]::world->field_75039_c
+Rename method net/minecraft/world/World/getBiomeProvider ()Lnet/minecraft/world/biome/BiomeProvider;[634,650]::getBiomeProvider->func_72959_q
+Rename field net/minecraft/world/gen/MapGenBase/world[730,735]::world->field_75039_c
+Rename method net/minecraft/world/World/getBiomeProvider ()Lnet/minecraft/world/biome/BiomeProvider;[744,760]::getBiomeProvider->func_72959_q
+Rename method net/minecraft/world/biome/BiomeProvider/getBiome (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome;[759,767]::getBiome->func_180631_a
+Rename method net/minecraft/world/gen/structure/MapGenStructure/canSpawnStructureAtCoords (II)Z[966,991]::canSpawnStructureAtCoords->func_75047_a
+Rename field net/minecraft/init/Biomes/SWAMPLAND[1158,1167]::SWAMPLAND->field_76780_h
+Rename field net/minecraft/init/Biomes/DESERT[1374,1380]::DESERT->field_76769_d
+Rename field net/minecraft/init/Biomes/DESERT_HILLS[1407,1419]::DESERT_HILLS->field_76786_s
+Rename field net/minecraft/init/Biomes/ICE_PLAINS[1606,1616]::ICE_PLAINS->field_76774_n
+Rename field net/minecraft/init/Biomes/COLD_TAIGA[1639,1649]::COLD_TAIGA->field_150584_S
+Rename field net/minecraft/init/Biomes/JUNGLE[1855,1861]::JUNGLE->field_76782_w
+Rename field net/minecraft/init/Biomes/JUNGLE_HILLS[1888,1900]::JUNGLE_HILLS->field_76792_x
+Rename method net/minecraft/world/gen/structure/MapGenStructure/canSpawnStructureAtCoords (II)Z[1964,1989]::canSpawnStructureAtCoords->func_75047_a
+Import: net.michaelsebero.noworldgen5you.WorldgenConfig
+Import: net.minecraft.init.Biomes
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.world.biome.Biome
+Import: net.minecraft.world.gen.structure.MapGenScatteredFeature
+End  Processing: net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java
+
+Start Processing: net/michaelsebero/noworldgen5you/world/gen/MapGenStrongholdEmpty.java
+Rename method net/minecraft/world/gen/MapGenBase/generate (Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V[286,294]::generate->func_186125_a
+Rename method net/minecraft/world/gen/structure/MapGenStructure/canSpawnStructureAtCoords (II)Z[393,418]::canSpawnStructureAtCoords->func_75047_a
+Import: net.minecraft.world.World
+Import: net.minecraft.world.chunk.ChunkPrimer
+Import: net.minecraft.world.gen.structure.MapGenStronghold
+End  Processing: net/michaelsebero/noworldgen5you/world/gen/MapGenStrongholdEmpty.java
+
+Start Processing: net/michaelsebero/noworldgen5you/world/gen/MapGenVillageEmpty.java
+Rename method net/minecraft/world/gen/MapGenBase/generate (Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V[277,285]::generate->func_186125_a
+Rename method net/minecraft/world/gen/structure/MapGenStructure/canSpawnStructureAtCoords (II)Z[384,409]::canSpawnStructureAtCoords->func_75047_a
+Import: net.minecraft.world.World
+Import: net.minecraft.world.chunk.ChunkPrimer
+Import: net.minecraft.world.gen.structure.MapGenVillage
+End  Processing: net/michaelsebero/noworldgen5you/world/gen/MapGenVillageEmpty.java
+
+Start Processing: net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java
+FOUND CONSTR method net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion/MapGenWoodlandMansion ()V net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion
+Rename method net/minecraft/world/gen/MapGenBase/generate (Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V[351,359]::generate->func_186125_a
+Rename method net/minecraft/world/gen/structure/MapGenStructure/canSpawnStructureAtCoords (II)Z[458,483]::canSpawnStructureAtCoords->func_75047_a
+Import: net.minecraft.world.World
+Import: net.minecraft.world.chunk.ChunkPrimer
+Import: net.minecraft.world.gen.structure.WoodlandMansion
+End  Processing: net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java
+

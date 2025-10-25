@@ -1,0 +1,503 @@
+Unsupposrted library path: /home/user/Downloads/No-Worldgen-5-You-master/build/classes/java/api
+Unsupposrted library path: /home/user/Downloads/No-Worldgen-5-You-master/build/resources/api
+Symbol range map extraction starting
+Processing 11 files
+startProcessing "net/michaelsebero/noworldgen5you/NoWorldgen5You.java" md5: fc0e7a882f2bdda422c781047fcf2cce
+@|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|8|40|net.michaelsebero.noworldgen5you|package|net.michaelsebero.noworldgen5you|(file)
+Class Start: net.michaelsebero.noworldgen5you.NoWorldgen5You
+   @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1394|1397|Mod|class|net.minecraftforge.fml.common.Mod|false
+   @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1398|1403|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1424|1428|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1452|1459|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1471|1493|certificateFingerprint|method|net.minecraftforge.fml.common.Mod|certificateFingerprint|()Ljava/lang/String;
+   @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1526|1540|NoWorldgen5You|class|net.michaelsebero.noworldgen5you.NoWorldgen5You|false
+   @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1569|1575|Logger|class|org.apache.logging.log4j.Logger|false
+   @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1569|1575|Logger|class|org.apache.logging.log4j.Logger|false
+   @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1576|1579|LOG|field|net.michaelsebero.noworldgen5you.NoWorldgen5You|LOG|
+   @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1582|1592|LogManager|class|org.apache.logging.log4j.LogManager|false
+   @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1593|1602|getLogger|method|org.apache.logging.log4j.LogManager|getLogger|(Ljava/lang/String;)Lorg/apache/logging/log4j/Logger;
+   @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1682|1710|MapGenScatteredFeaturesEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty|false
+   @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1682|1710|MapGenScatteredFeaturesEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty|false
+   @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1711|1724|SCATTERED_GEN|field|net.michaelsebero.noworldgen5you.NoWorldgen5You|SCATTERED_GEN|
+   Method Start: onPreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1798|1803|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onPreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1732|1744|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1761|1770|onPreInit|method|net.michaelsebero.noworldgen5you.NoWorldgen5You|onPreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1772|1797|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1816|1830|WorldgenConfig|class|net.michaelsebero.noworldgen5you.WorldgenConfig|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1831|1841|initConfig|method|net.michaelsebero.noworldgen5you.WorldgenConfig|initConfig|(Ljava/io/File;)Lnet/minecraftforge/common/config/Configuration;
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1842|1847|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onPreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1848|1877|getSuggestedConfigurationFile|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getSuggestedConfigurationFile|()Ljava/io/File;
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1890|1904|MinecraftForge|class|net.minecraftforge.common.MinecraftForge|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1905|1920|TERRAIN_GEN_BUS|field|net.minecraftforge.common.MinecraftForge|TERRAIN_GEN_BUS
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1921|1929|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1970|1983|SCATTERED_GEN|field|net.michaelsebero.noworldgen5you.NoWorldgen5You|SCATTERED_GEN
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|1990|2018|MapGenScatteredFeaturesEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty|false
+   Method End: onPreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: onChunkPopulated(Lnet/minecraftforge/event/terraingen/PopulateChunkEvent$Populate;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2092|2097|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onChunkPopulated|(Lnet/minecraftforge/event/terraingen/PopulateChunkEvent$Populate;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2034|2048|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2065|2081|onChunkPopulated|method|net.michaelsebero.noworldgen5you.NoWorldgen5You|onChunkPopulated|(Lnet/minecraftforge/event/terraingen/PopulateChunkEvent$Populate;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2083|2091|Populate|class|net.minecraftforge.event.terraingen.PopulateChunkEvent.Populate|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2114|2128|WorldgenConfig|class|net.michaelsebero.noworldgen5you.WorldgenConfig|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2129|2147|isPopulateDisabled|method|net.michaelsebero.noworldgen5you.WorldgenConfig|isPopulateDisabled|(Ljava/lang/String;)Z
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2148|2153|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onChunkPopulated|(Lnet/minecraftforge/event/terraingen/PopulateChunkEvent$Populate;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2154|2161|getType|method|net.minecraftforge.event.terraingen.PopulateChunkEvent.Populate|getType|()Lnet/minecraftforge/event/terraingen/PopulateChunkEvent$Populate$EventType;
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2164|2168|name|method|java.lang.Enum|name|()Ljava/lang/String;
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2171|2182|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2202|2207|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onChunkPopulated|(Lnet/minecraftforge/event/terraingen/PopulateChunkEvent$Populate;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2208|2217|setResult|method|net.minecraftforge.fml.common.eventhandler.Event|setResult|(Lnet/minecraftforge/fml/common/eventhandler/Event$Result;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2218|2224|Result|class|net.minecraftforge.fml.common.eventhandler.Event.Result|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2225|2229|DENY|field|net.minecraftforge.fml.common.eventhandler.Event.Result|DENY
+   Method End: onChunkPopulated(Lnet/minecraftforge/event/terraingen/PopulateChunkEvent$Populate;)V
+   Method Start: onMapGen(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2344|2349|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onMapGen|(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2254|2268|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2269|2277|priority|method|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|priority|()Lnet/minecraftforge/fml/common/eventhandler/EventPriority;
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2280|2293|EventPriority|class|net.minecraftforge.fml.common.eventhandler.EventPriority|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2294|2300|LOWEST|field|net.minecraftforge.fml.common.eventhandler.EventPriority|LOWEST
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2318|2326|onMapGen|method|net.michaelsebero.noworldgen5you.NoWorldgen5You|onMapGen|(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2328|2343|InitMapGenEvent|class|net.minecraftforge.event.terraingen.InitMapGenEvent|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2409|2412|LOG|field|net.michaelsebero.noworldgen5you.NoWorldgen5You|LOG
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2413|2417|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2481|2486|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onMapGen|(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2487|2494|getType|method|net.minecraftforge.event.terraingen.InitMapGenEvent|getType|()Lnet/minecraftforge/event/terraingen/InitMapGenEvent$EventType;
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2511|2516|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onMapGen|(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2517|2531|getOriginalGen|method|net.minecraftforge.event.terraingen.InitMapGenEvent|getOriginalGen|()Lnet/minecraft/world/gen/MapGenBase;
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2534|2542|getClass|method|java.lang.Object|getClass|()Ljava/lang/Class;
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2545|2558|getSimpleName|method|java.lang.Class|getSimpleName|()Ljava/lang/String;
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2577|2591|WorldgenConfig|class|net.michaelsebero.noworldgen5you.WorldgenConfig|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2592|2611|isStructureDisabled|method|net.michaelsebero.noworldgen5you.WorldgenConfig|isStructureDisabled|(Ljava/lang/String;)Z
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2612|2617|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onMapGen|(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2618|2625|getType|method|net.minecraftforge.event.terraingen.InitMapGenEvent|getType|()Lnet/minecraftforge/event/terraingen/InitMapGenEvent$EventType;
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2628|2632|name|method|java.lang.Enum|name|()Ljava/lang/String;
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2635|2646|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2692|2695|LOG|field|net.michaelsebero.noworldgen5you.NoWorldgen5You|LOG
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2696|2700|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2727|2732|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onMapGen|(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2733|2740|getType|method|net.minecraftforge.event.terraingen.InitMapGenEvent|getType|()Lnet/minecraftforge/event/terraingen/InitMapGenEvent$EventType;
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2762|2767|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onMapGen|(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2768|2775|getType|method|net.minecraftforge.event.terraingen.InitMapGenEvent|getType|()Lnet/minecraftforge/event/terraingen/InitMapGenEvent$EventType;
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2799|2803|CAVE|field|net.minecraftforge.event.terraingen.InitMapGenEvent.EventType|CAVE
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2821|2826|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onMapGen|(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2827|2836|setNewGen|method|net.minecraftforge.event.terraingen.InitMapGenEvent|setNewGen|(Lnet/minecraft/world/gen/MapGenBase;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2841|2852|MapGenEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenEmpty|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2898|2904|CUSTOM|field|net.minecraftforge.event.terraingen.InitMapGenEvent.EventType|CUSTOM
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2922|2925|LOG|field|net.michaelsebero.noworldgen5you.NoWorldgen5You|LOG
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|2926|2930|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3114|3119|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onMapGen|(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3120|3129|setNewGen|method|net.minecraftforge.event.terraingen.InitMapGenEvent|setNewGen|(Lnet/minecraft/world/gen/MapGenBase;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3134|3145|MapGenEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenEmpty|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3191|3200|MINESHAFT|field|net.minecraftforge.event.terraingen.InitMapGenEvent.EventType|MINESHAFT
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3218|3223|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onMapGen|(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3224|3233|setNewGen|method|net.minecraftforge.event.terraingen.InitMapGenEvent|setNewGen|(Lnet/minecraft/world/gen/MapGenBase;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3238|3258|MapGenMineshaftEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenMineshaftEmpty|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3304|3317|NETHER_BRIDGE|field|net.minecraftforge.event.terraingen.InitMapGenEvent.EventType|NETHER_BRIDGE
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3335|3340|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onMapGen|(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3341|3350|setNewGen|method|net.minecraftforge.event.terraingen.InitMapGenEvent|setNewGen|(Lnet/minecraft/world/gen/MapGenBase;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3355|3374|MapGenFortressEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenFortressEmpty|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3420|3431|NETHER_CAVE|field|net.minecraftforge.event.terraingen.InitMapGenEvent.EventType|NETHER_CAVE
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3449|3454|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onMapGen|(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3455|3464|setNewGen|method|net.minecraftforge.event.terraingen.InitMapGenEvent|setNewGen|(Lnet/minecraft/world/gen/MapGenBase;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3469|3480|MapGenEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenEmpty|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3526|3540|OCEAN_MONUMENT|field|net.minecraftforge.event.terraingen.InitMapGenEvent.EventType|OCEAN_MONUMENT
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3558|3563|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onMapGen|(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3564|3573|setNewGen|method|net.minecraftforge.event.terraingen.InitMapGenEvent|setNewGen|(Lnet/minecraft/world/gen/MapGenBase;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3578|3602|MapGenOceanMonumentEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenOceanMonumentEmpty|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3648|3654|RAVINE|field|net.minecraftforge.event.terraingen.InitMapGenEvent.EventType|RAVINE
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3672|3677|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onMapGen|(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3678|3687|setNewGen|method|net.minecraftforge.event.terraingen.InitMapGenEvent|setNewGen|(Lnet/minecraft/world/gen/MapGenBase;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3692|3703|MapGenEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenEmpty|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3749|3766|SCATTERED_FEATURE|field|net.minecraftforge.event.terraingen.InitMapGenEvent.EventType|SCATTERED_FEATURE
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3784|3789|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onMapGen|(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3790|3799|setNewGen|method|net.minecraftforge.event.terraingen.InitMapGenEvent|setNewGen|(Lnet/minecraft/world/gen/MapGenBase;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3800|3813|SCATTERED_GEN|field|net.michaelsebero.noworldgen5you.NoWorldgen5You|SCATTERED_GEN
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3857|3867|STRONGHOLD|field|net.minecraftforge.event.terraingen.InitMapGenEvent.EventType|STRONGHOLD
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3885|3890|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onMapGen|(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3891|3900|setNewGen|method|net.minecraftforge.event.terraingen.InitMapGenEvent|setNewGen|(Lnet/minecraft/world/gen/MapGenBase;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3905|3926|MapGenStrongholdEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenStrongholdEmpty|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3972|3979|VILLAGE|field|net.minecraftforge.event.terraingen.InitMapGenEvent.EventType|VILLAGE
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|3997|4002|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onMapGen|(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|4003|4012|setNewGen|method|net.minecraftforge.event.terraingen.InitMapGenEvent|setNewGen|(Lnet/minecraft/world/gen/MapGenBase;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|4017|4035|MapGenVillageEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenVillageEmpty|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|4081|4089|END_CITY|field|net.minecraftforge.event.terraingen.InitMapGenEvent.EventType|END_CITY
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|4107|4112|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onMapGen|(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|4113|4122|setNewGen|method|net.minecraftforge.event.terraingen.InitMapGenEvent|setNewGen|(Lnet/minecraft/world/gen/MapGenBase;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|4127|4145|MapGenEndCityEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenEndCityEmpty|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|4191|4207|WOODLAND_MANSION|field|net.minecraftforge.event.terraingen.InitMapGenEvent.EventType|WOODLAND_MANSION
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|4225|4230|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onMapGen|(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|4231|4240|setNewGen|method|net.minecraftforge.event.terraingen.InitMapGenEvent|setNewGen|(Lnet/minecraft/world/gen/MapGenBase;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|4245|4266|MapGenWoodlandMansion|class|net.michaelsebero.noworldgen5you.world.gen.MapGenWoodlandMansion|false
+   Method End: onMapGen(Lnet/minecraftforge/event/terraingen/InitMapGenEvent;)V
+   Method Start: onFingerprintViolation(Lnet/minecraftforge/fml/common/event/FMLFingerprintViolationEvent;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|4444|4449|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onFingerprintViolation|(Lnet/minecraftforge/fml/common/event/FMLFingerprintViolationEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|4362|4374|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|4391|4413|onFingerprintViolation|method|net.michaelsebero.noworldgen5you.NoWorldgen5You|onFingerprintViolation|(Lnet/minecraftforge/fml/common/event/FMLFingerprintViolationEvent;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|4415|4443|FMLFingerprintViolationEvent|class|net.minecraftforge.fml.common.event.FMLFingerprintViolationEvent|false
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|4462|4465|LOG|field|net.michaelsebero.noworldgen5you.NoWorldgen5You|LOG
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|4466|4470|warn|method|org.apache.logging.log4j.Logger|warn|(Ljava/lang/String;)V
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|4515|4520|event|param|net.michaelsebero.noworldgen5you.NoWorldgen5You|onFingerprintViolation|(Lnet/minecraftforge/fml/common/event/FMLFingerprintViolationEvent;)V|event|0
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|4521|4530|getSource|method|net.minecraftforge.fml.common.event.FMLFingerprintViolationEvent|getSource|()Ljava/io/File;
+      @|net/michaelsebero/noworldgen5you/NoWorldgen5You.java|4533|4540|getName|method|java.io.File|getName|()Ljava/lang/String;
+   Method End: onFingerprintViolation(Lnet/minecraftforge/fml/common/event/FMLFingerprintViolationEvent;)V
+Class End  : net.michaelsebero.noworldgen5you.NoWorldgen5You
+endProcessing "net/michaelsebero/noworldgen5you/NoWorldgen5You.java"
+
+startProcessing "net/michaelsebero/noworldgen5you/WorldgenConfig.java" md5: 17ca3e72ed1002c7c779944b64d03871
+@|net/michaelsebero/noworldgen5you/WorldgenConfig.java|8|40|net.michaelsebero.noworldgen5you|package|net.michaelsebero.noworldgen5you|(file)
+Class Start: net.michaelsebero.noworldgen5you.WorldgenConfig
+   @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|394|408|WorldgenConfig|class|net.michaelsebero.noworldgen5you.WorldgenConfig|false
+   @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|431|444|Configuration|class|net.minecraftforge.common.config.Configuration|false
+   @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|431|444|Configuration|class|net.minecraftforge.common.config.Configuration|false
+   @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|445|451|config|field|net.michaelsebero.noworldgen5you.WorldgenConfig|config|
+   @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|481|487|String|class|java.lang.String|false
+   @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|489|496|Boolean|class|java.lang.Boolean|false
+   @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|477|480|Map|class|java.util.Map|false
+   @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|477|480|Map|class|java.util.Map|false
+   @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|481|487|String|class|java.lang.String|false
+   @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|489|496|Boolean|class|java.lang.Boolean|false
+   @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|498|506|settings|field|net.michaelsebero.noworldgen5you.WorldgenConfig|settings|
+   @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|513|520|HashMap|class|java.util.HashMap|false
+   Method Start: initConfig(Ljava/io/File;)Lnet/minecraftforge/common/config/Configuration;
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|576|580|file|param|net.michaelsebero.noworldgen5you.WorldgenConfig|initConfig|(Ljava/io/File;)Lnet/minecraftforge/common/config/Configuration;|file|0
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|545|558|Configuration|class|net.minecraftforge.common.config.Configuration|false
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|559|569|initConfig|method|net.michaelsebero.noworldgen5you.WorldgenConfig|initConfig|(Ljava/io/File;)Lnet/minecraftforge/common/config/Configuration;
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|571|575|File|class|java.io.File|false
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|593|599|config|field|net.michaelsebero.noworldgen5you.WorldgenConfig|config
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|606|619|Configuration|class|net.minecraftforge.common.config.Configuration|false
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|620|624|file|param|net.michaelsebero.noworldgen5you.WorldgenConfig|initConfig|(Ljava/io/File;)Lnet/minecraftforge/common/config/Configuration;|file|0
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|636|642|config|field|net.michaelsebero.noworldgen5you.WorldgenConfig|config
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|643|661|setCategoryComment|method|net.minecraftforge.common.config.Configuration|setCategoryComment|(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraftforge/common/config/Configuration;
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|763|788|InitMapGenEvent.EventType|class|net.minecraftforge.event.terraingen.InitMapGenEvent.EventType|false
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|796|821|InitMapGenEvent.EventType|class|net.minecraftforge.event.terraingen.InitMapGenEvent.EventType|false
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|822|828|values|method|net.minecraftforge.event.terraingen.InitMapGenEvent.EventType|values|()[Lnet/minecraftforge/event/terraingen/InitMapGenEvent$EventType;
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|859|884|InitMapGenEvent.EventType|class|net.minecraftforge.event.terraingen.InitMapGenEvent.EventType|false
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|885|891|CUSTOM|field|net.minecraftforge.event.terraingen.InitMapGenEvent.EventType|CUSTOM
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|912|931|isStructureDisabled|method|net.michaelsebero.noworldgen5you.WorldgenConfig|isStructureDisabled|(Ljava/lang/String;)Z
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|937|941|name|method|java.lang.Enum|name|()Ljava/lang/String;
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|944|955|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|993|999|config|field|net.michaelsebero.noworldgen5you.WorldgenConfig|config
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1000|1018|setCategoryComment|method|net.minecraftforge.common.config.Configuration|setCategoryComment|(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraftforge/common/config/Configuration;
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1167|1200|MapGenScatteredFeaturesEmpty.Type|class|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty.Type|false
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1208|1241|MapGenScatteredFeaturesEmpty.Type|class|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty.Type|false
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1242|1248|values|method|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty.Type|values|()[Lnet/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty$Type;
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1267|1294|isScateredStructureDisabled|method|net.michaelsebero.noworldgen5you.WorldgenConfig|isScateredStructureDisabled|(Ljava/lang/String;)Z
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1300|1304|name|method|java.lang.Enum|name|()Ljava/lang/String;
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1307|1318|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1342|1348|config|field|net.michaelsebero.noworldgen5you.WorldgenConfig|config
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1349|1367|setCategoryComment|method|net.minecraftforge.common.config.Configuration|setCategoryComment|(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraftforge/common/config/Configuration;
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1470|1488|Populate.EventType|class|net.minecraftforge.event.terraingen.PopulateChunkEvent.Populate.EventType|false
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1496|1514|Populate.EventType|class|net.minecraftforge.event.terraingen.PopulateChunkEvent.Populate.EventType|false
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1515|1521|values|method|net.minecraftforge.event.terraingen.PopulateChunkEvent.Populate.EventType|values|()[Lnet/minecraftforge/event/terraingen/PopulateChunkEvent$Populate$EventType;
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1552|1570|Populate.EventType|class|net.minecraftforge.event.terraingen.PopulateChunkEvent.Populate.EventType|false
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1571|1577|CUSTOM|field|net.minecraftforge.event.terraingen.PopulateChunkEvent.Populate.EventType|CUSTOM
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1598|1616|isPopulateDisabled|method|net.michaelsebero.noworldgen5you.WorldgenConfig|isPopulateDisabled|(Ljava/lang/String;)Z
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1622|1626|name|method|java.lang.Enum|name|()Ljava/lang/String;
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1629|1640|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1678|1692|syncConfigData|method|net.michaelsebero.noworldgen5you.WorldgenConfig|syncConfigData|()V
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1711|1717|config|field|net.michaelsebero.noworldgen5you.WorldgenConfig|config
+   Method End: initConfig(Ljava/io/File;)Lnet/minecraftforge/common/config/Configuration;
+   Method Start: syncConfigData()V
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1749|1763|syncConfigData|method|net.michaelsebero.noworldgen5you.WorldgenConfig|syncConfigData|()V
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1782|1788|config|field|net.michaelsebero.noworldgen5you.WorldgenConfig|config
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1789|1799|hasChanged|method|net.minecraftforge.common.config.Configuration|hasChanged|()Z
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1817|1823|config|field|net.michaelsebero.noworldgen5you.WorldgenConfig|config
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1824|1828|save|method|net.minecraftforge.common.config.Configuration|save|()V
+   Method End: syncConfigData()V
+   Method Start: isStructureDisabled(Ljava/lang/String;)Z
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1903|1907|type|param|net.michaelsebero.noworldgen5you.WorldgenConfig|isStructureDisabled|(Ljava/lang/String;)Z|type|0
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1875|1894|isStructureDisabled|method|net.michaelsebero.noworldgen5you.WorldgenConfig|isStructureDisabled|(Ljava/lang/String;)Z
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1896|1902|String|class|java.lang.String|false
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1943|1949|config|field|net.michaelsebero.noworldgen5you.WorldgenConfig|config
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1950|1960|getBoolean|method|net.minecraftforge.common.config.Configuration|getBoolean|(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|1974|1978|type|param|net.michaelsebero.noworldgen5you.WorldgenConfig|isStructureDisabled|(Ljava/lang/String;)Z|type|0
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|2017|2021|type|param|net.michaelsebero.noworldgen5you.WorldgenConfig|isStructureDisabled|(Ljava/lang/String;)Z|type|0
+   Method End: isStructureDisabled(Ljava/lang/String;)Z
+   Method Start: isScateredStructureDisabled(Ljava/lang/String;)Z
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|2145|2149|type|param|net.michaelsebero.noworldgen5you.WorldgenConfig|isScateredStructureDisabled|(Ljava/lang/String;)Z|type|0
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|2109|2136|isScateredStructureDisabled|method|net.michaelsebero.noworldgen5you.WorldgenConfig|isScateredStructureDisabled|(Ljava/lang/String;)Z
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|2138|2144|String|class|java.lang.String|false
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|2185|2191|config|field|net.michaelsebero.noworldgen5you.WorldgenConfig|config
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|2192|2202|getBoolean|method|net.minecraftforge.common.config.Configuration|getBoolean|(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|2216|2220|type|param|net.michaelsebero.noworldgen5you.WorldgenConfig|isScateredStructureDisabled|(Ljava/lang/String;)Z|type|0
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|2265|2269|type|param|net.michaelsebero.noworldgen5you.WorldgenConfig|isScateredStructureDisabled|(Ljava/lang/String;)Z|type|0
+   Method End: isScateredStructureDisabled(Ljava/lang/String;)Z
+   Method Start: isPopulateDisabled(Ljava/lang/String;)Z
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|2384|2388|type|param|net.michaelsebero.noworldgen5you.WorldgenConfig|isPopulateDisabled|(Ljava/lang/String;)Z|type|0
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|2357|2375|isPopulateDisabled|method|net.michaelsebero.noworldgen5you.WorldgenConfig|isPopulateDisabled|(Ljava/lang/String;)Z
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|2377|2383|String|class|java.lang.String|false
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|2424|2430|config|field|net.michaelsebero.noworldgen5you.WorldgenConfig|config
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|2431|2441|getBoolean|method|net.minecraftforge.common.config.Configuration|getBoolean|(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|2455|2459|type|param|net.michaelsebero.noworldgen5you.WorldgenConfig|isPopulateDisabled|(Ljava/lang/String;)Z|type|0
+      @|net/michaelsebero/noworldgen5you/WorldgenConfig.java|2497|2501|type|param|net.michaelsebero.noworldgen5you.WorldgenConfig|isPopulateDisabled|(Ljava/lang/String;)Z|type|0
+   Method End: isPopulateDisabled(Ljava/lang/String;)Z
+Class End  : net.michaelsebero.noworldgen5you.WorldgenConfig
+endProcessing "net/michaelsebero/noworldgen5you/WorldgenConfig.java"
+
+startProcessing "net/michaelsebero/noworldgen5you/world/gen/MapGenEmpty.java" md5: 5f28779e9f499bbfd6f928fb2d78c21e
+@|net/michaelsebero/noworldgen5you/world/gen/MapGenEmpty.java|8|50|net.michaelsebero.noworldgen5you.world.gen|package|net.michaelsebero.noworldgen5you.world.gen|(file)
+Class Start: net.michaelsebero.noworldgen5you.world.gen.MapGenEmpty
+   @|net/michaelsebero/noworldgen5you/world/gen/MapGenEmpty.java|190|201|MapGenEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenEmpty|false
+   @|net/michaelsebero/noworldgen5you/world/gen/MapGenEmpty.java|210|220|MapGenBase|class|net.minecraft.world.gen.MapGenBase|false
+   Method Start: generate(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEmpty.java|270|277|worldIn|param|net.michaelsebero.noworldgen5you.world.gen.MapGenEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|worldIn|0
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEmpty.java|283|284|x|param|net.michaelsebero.noworldgen5you.world.gen.MapGenEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|x|1
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEmpty.java|290|291|z|param|net.michaelsebero.noworldgen5you.world.gen.MapGenEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|z|2
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEmpty.java|305|311|primer|param|net.michaelsebero.noworldgen5you.world.gen.MapGenEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|primer|3
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEmpty.java|229|237|Override|class|java.lang.Override|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEmpty.java|254|262|generate|method|net.minecraft.world.gen.MapGenBase|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEmpty.java|264|269|World|class|net.minecraft.world.World|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEmpty.java|293|304|ChunkPrimer|class|net.minecraft.world.chunk.ChunkPrimer|false
+   Method End: generate(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+Class End  : net.michaelsebero.noworldgen5you.world.gen.MapGenEmpty
+endProcessing "net/michaelsebero/noworldgen5you/world/gen/MapGenEmpty.java"
+
+startProcessing "net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java" md5: ff4f28c36c709815f7fbb0294dcddfac
+@|net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java|8|50|net.michaelsebero.noworldgen5you.world.gen|package|net.michaelsebero.noworldgen5you.world.gen|(file)
+Class Start: net.michaelsebero.noworldgen5you.world.gen.MapGenEndCityEmpty
+   @|net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java|203|221|MapGenEndCityEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenEndCityEmpty|false
+   @|net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java|230|243|MapGenEndCity|class|net.minecraft.world.gen.structure.MapGenEndCity|false
+   Method Start: MapGenEndCityEmpty()V
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java|258|276|MapGenEndCityEmpty|method|net.michaelsebero.noworldgen5you.world.gen.MapGenEndCityEmpty|MapGenEndCityEmpty|()V
+   Method End: MapGenEndCityEmpty()V
+   Method Start: generate(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java|357|364|worldIn|param|net.michaelsebero.noworldgen5you.world.gen.MapGenEndCityEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|worldIn|0
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java|370|371|x|param|net.michaelsebero.noworldgen5you.world.gen.MapGenEndCityEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|x|1
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java|377|378|z|param|net.michaelsebero.noworldgen5you.world.gen.MapGenEndCityEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|z|2
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java|392|398|primer|param|net.michaelsebero.noworldgen5you.world.gen.MapGenEndCityEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|primer|3
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java|316|324|Override|class|java.lang.Override|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java|341|349|generate|method|net.minecraft.world.gen.MapGenBase|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java|351|356|World|class|net.minecraft.world.World|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java|380|391|ChunkPrimer|class|net.minecraft.world.chunk.ChunkPrimer|false
+   Method End: generate(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+   Method Start: canSpawnStructureAtCoords(II)Z
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java|474|480|chunkX|param|net.michaelsebero.noworldgen5you.world.gen.MapGenEndCityEmpty|canSpawnStructureAtCoords|(II)Z|chunkX|0
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java|486|492|chunkZ|param|net.michaelsebero.noworldgen5you.world.gen.MapGenEndCityEmpty|canSpawnStructureAtCoords|(II)Z|chunkZ|1
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java|415|423|Override|class|java.lang.Override|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java|443|468|canSpawnStructureAtCoords|method|net.minecraft.world.gen.structure.MapGenStructure|canSpawnStructureAtCoords|(II)Z
+   Method End: canSpawnStructureAtCoords(II)Z
+Class End  : net.michaelsebero.noworldgen5you.world.gen.MapGenEndCityEmpty
+endProcessing "net/michaelsebero/noworldgen5you/world/gen/MapGenEndCityEmpty.java"
+
+startProcessing "net/michaelsebero/noworldgen5you/world/gen/MapGenFortressEmpty.java" md5: b9afa7f5ae87e7d25ab3c4d9dccf727e
+@|net/michaelsebero/noworldgen5you/world/gen/MapGenFortressEmpty.java|8|50|net.michaelsebero.noworldgen5you.world.gen|package|net.michaelsebero.noworldgen5you.world.gen|(file)
+Class Start: net.michaelsebero.noworldgen5you.world.gen.MapGenFortressEmpty
+   @|net/michaelsebero/noworldgen5you/world/gen/MapGenFortressEmpty.java|208|227|MapGenFortressEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenFortressEmpty|false
+   @|net/michaelsebero/noworldgen5you/world/gen/MapGenFortressEmpty.java|236|254|MapGenNetherBridge|class|net.minecraft.world.gen.structure.MapGenNetherBridge|false
+   Method Start: generate(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenFortressEmpty.java|304|311|worldIn|param|net.michaelsebero.noworldgen5you.world.gen.MapGenFortressEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|worldIn|0
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenFortressEmpty.java|317|318|x|param|net.michaelsebero.noworldgen5you.world.gen.MapGenFortressEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|x|1
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenFortressEmpty.java|324|325|z|param|net.michaelsebero.noworldgen5you.world.gen.MapGenFortressEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|z|2
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenFortressEmpty.java|339|345|primer|param|net.michaelsebero.noworldgen5you.world.gen.MapGenFortressEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|primer|3
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenFortressEmpty.java|263|271|Override|class|java.lang.Override|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenFortressEmpty.java|288|296|generate|method|net.minecraft.world.gen.MapGenBase|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenFortressEmpty.java|298|303|World|class|net.minecraft.world.World|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenFortressEmpty.java|327|338|ChunkPrimer|class|net.minecraft.world.chunk.ChunkPrimer|false
+   Method End: generate(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+   Method Start: canSpawnStructureAtCoords(II)Z
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenFortressEmpty.java|421|427|chunkX|param|net.michaelsebero.noworldgen5you.world.gen.MapGenFortressEmpty|canSpawnStructureAtCoords|(II)Z|chunkX|0
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenFortressEmpty.java|433|439|chunkZ|param|net.michaelsebero.noworldgen5you.world.gen.MapGenFortressEmpty|canSpawnStructureAtCoords|(II)Z|chunkZ|1
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenFortressEmpty.java|362|370|Override|class|java.lang.Override|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenFortressEmpty.java|390|415|canSpawnStructureAtCoords|method|net.minecraft.world.gen.structure.MapGenStructure|canSpawnStructureAtCoords|(II)Z
+   Method End: canSpawnStructureAtCoords(II)Z
+Class End  : net.michaelsebero.noworldgen5you.world.gen.MapGenFortressEmpty
+endProcessing "net/michaelsebero/noworldgen5you/world/gen/MapGenFortressEmpty.java"
+
+startProcessing "net/michaelsebero/noworldgen5you/world/gen/MapGenMineshaftEmpty.java" md5: ca578d144f7b13dd468ffbc7566bf2d8
+@|net/michaelsebero/noworldgen5you/world/gen/MapGenMineshaftEmpty.java|8|50|net.michaelsebero.noworldgen5you.world.gen|package|net.michaelsebero.noworldgen5you.world.gen|(file)
+Class Start: net.michaelsebero.noworldgen5you.world.gen.MapGenMineshaftEmpty
+   @|net/michaelsebero/noworldgen5you/world/gen/MapGenMineshaftEmpty.java|205|225|MapGenMineshaftEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenMineshaftEmpty|false
+   @|net/michaelsebero/noworldgen5you/world/gen/MapGenMineshaftEmpty.java|234|249|MapGenMineshaft|class|net.minecraft.world.gen.structure.MapGenMineshaft|false
+   Method Start: generate(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenMineshaftEmpty.java|299|306|worldIn|param|net.michaelsebero.noworldgen5you.world.gen.MapGenMineshaftEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|worldIn|0
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenMineshaftEmpty.java|312|313|x|param|net.michaelsebero.noworldgen5you.world.gen.MapGenMineshaftEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|x|1
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenMineshaftEmpty.java|319|320|z|param|net.michaelsebero.noworldgen5you.world.gen.MapGenMineshaftEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|z|2
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenMineshaftEmpty.java|334|340|primer|param|net.michaelsebero.noworldgen5you.world.gen.MapGenMineshaftEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|primer|3
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenMineshaftEmpty.java|258|266|Override|class|java.lang.Override|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenMineshaftEmpty.java|283|291|generate|method|net.minecraft.world.gen.MapGenBase|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenMineshaftEmpty.java|293|298|World|class|net.minecraft.world.World|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenMineshaftEmpty.java|322|333|ChunkPrimer|class|net.minecraft.world.chunk.ChunkPrimer|false
+   Method End: generate(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+   Method Start: canSpawnStructureAtCoords(II)Z
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenMineshaftEmpty.java|416|422|chunkX|param|net.michaelsebero.noworldgen5you.world.gen.MapGenMineshaftEmpty|canSpawnStructureAtCoords|(II)Z|chunkX|0
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenMineshaftEmpty.java|428|434|chunkZ|param|net.michaelsebero.noworldgen5you.world.gen.MapGenMineshaftEmpty|canSpawnStructureAtCoords|(II)Z|chunkZ|1
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenMineshaftEmpty.java|357|365|Override|class|java.lang.Override|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenMineshaftEmpty.java|385|410|canSpawnStructureAtCoords|method|net.minecraft.world.gen.structure.MapGenStructure|canSpawnStructureAtCoords|(II)Z
+   Method End: canSpawnStructureAtCoords(II)Z
+Class End  : net.michaelsebero.noworldgen5you.world.gen.MapGenMineshaftEmpty
+endProcessing "net/michaelsebero/noworldgen5you/world/gen/MapGenMineshaftEmpty.java"
+
+startProcessing "net/michaelsebero/noworldgen5you/world/gen/MapGenOceanMonumentEmpty.java" md5: 86805a05a99559f7a416dcec42dd17af
+@|net/michaelsebero/noworldgen5you/world/gen/MapGenOceanMonumentEmpty.java|8|50|net.michaelsebero.noworldgen5you.world.gen|package|net.michaelsebero.noworldgen5you.world.gen|(file)
+Class Start: net.michaelsebero.noworldgen5you.world.gen.MapGenOceanMonumentEmpty
+   @|net/michaelsebero/noworldgen5you/world/gen/MapGenOceanMonumentEmpty.java|212|236|MapGenOceanMonumentEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenOceanMonumentEmpty|false
+   @|net/michaelsebero/noworldgen5you/world/gen/MapGenOceanMonumentEmpty.java|245|267|StructureOceanMonument|class|net.minecraft.world.gen.structure.StructureOceanMonument|false
+   Method Start: generate(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenOceanMonumentEmpty.java|317|324|worldIn|param|net.michaelsebero.noworldgen5you.world.gen.MapGenOceanMonumentEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|worldIn|0
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenOceanMonumentEmpty.java|330|331|x|param|net.michaelsebero.noworldgen5you.world.gen.MapGenOceanMonumentEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|x|1
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenOceanMonumentEmpty.java|337|338|z|param|net.michaelsebero.noworldgen5you.world.gen.MapGenOceanMonumentEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|z|2
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenOceanMonumentEmpty.java|352|358|primer|param|net.michaelsebero.noworldgen5you.world.gen.MapGenOceanMonumentEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|primer|3
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenOceanMonumentEmpty.java|276|284|Override|class|java.lang.Override|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenOceanMonumentEmpty.java|301|309|generate|method|net.minecraft.world.gen.MapGenBase|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenOceanMonumentEmpty.java|311|316|World|class|net.minecraft.world.World|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenOceanMonumentEmpty.java|340|351|ChunkPrimer|class|net.minecraft.world.chunk.ChunkPrimer|false
+   Method End: generate(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+   Method Start: canSpawnStructureAtCoords(II)Z
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenOceanMonumentEmpty.java|434|440|chunkX|param|net.michaelsebero.noworldgen5you.world.gen.MapGenOceanMonumentEmpty|canSpawnStructureAtCoords|(II)Z|chunkX|0
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenOceanMonumentEmpty.java|446|452|chunkZ|param|net.michaelsebero.noworldgen5you.world.gen.MapGenOceanMonumentEmpty|canSpawnStructureAtCoords|(II)Z|chunkZ|1
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenOceanMonumentEmpty.java|375|383|Override|class|java.lang.Override|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenOceanMonumentEmpty.java|403|428|canSpawnStructureAtCoords|method|net.minecraft.world.gen.structure.MapGenStructure|canSpawnStructureAtCoords|(II)Z
+   Method End: canSpawnStructureAtCoords(II)Z
+Class End  : net.michaelsebero.noworldgen5you.world.gen.MapGenOceanMonumentEmpty
+endProcessing "net/michaelsebero/noworldgen5you/world/gen/MapGenOceanMonumentEmpty.java"
+
+startProcessing "net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java" md5: 0d8ca515808abd213228cf1bd71cdc9d
+@|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|8|50|net.michaelsebero.noworldgen5you.world.gen|package|net.michaelsebero.noworldgen5you.world.gen|(file)
+Class Start: net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty
+   @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|303|331|MapGenScatteredFeaturesEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty|false
+   @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|340|362|MapGenScatteredFeature|class|net.minecraft.world.gen.structure.MapGenScatteredFeature|false
+   Enum Start: net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty.Type
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|382|386|Type|class|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty.Type|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|397|406|WITCH_HUT|field|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty.Type|WITCH_HUT
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|416|421|IGLOO|field|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty.Type|IGLOO
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|431|445|DESERT_PYRAMID|field|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty.Type|DESERT_PYRAMID
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|455|468|JUNGLE_TEMPLE|field|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty.Type|JUNGLE_TEMPLE
+   Enum End  : net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty.Type
+   Method Start: canSpawnStructureAtCoords(II)Z
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|540|546|chunkX|param|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty|canSpawnStructureAtCoords|(II)Z|chunkX|0
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|552|558|chunkZ|param|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty|canSpawnStructureAtCoords|(II)Z|chunkZ|1
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|482|490|Override|class|java.lang.Override|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|510|535|canSpawnStructureAtCoords|method|net.minecraft.world.gen.structure.MapGenStructure|canSpawnStructureAtCoords|(II)Z
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|603|608|world|field|net.minecraft.world.gen.MapGenBase|world
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|625|630|world|field|net.minecraft.world.gen.MapGenBase|world
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|631|647|getBiomeProvider|method|net.minecraft.world.World|getBiomeProvider|()Lnet/minecraft/world/biome/BiomeProvider;
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|712|717|Biome|class|net.minecraft.world.biome.Biome|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|731|736|world|field|net.minecraft.world.gen.MapGenBase|world
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|737|753|getBiomeProvider|method|net.minecraft.world.World|getBiomeProvider|()Lnet/minecraft/world/biome/BiomeProvider;
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|756|764|getBiome|method|net.minecraft.world.biome.BiomeProvider|getBiome|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome;
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|782|790|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|791|797|chunkX|param|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty|canSpawnStructureAtCoords|(II)Z|chunkX|0
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|811|817|chunkZ|param|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty|canSpawnStructureAtCoords|(II)Z|chunkZ|1
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|958|983|canSpawnStructureAtCoords|method|net.minecraft.world.gen.structure.MapGenStructure|canSpawnStructureAtCoords|(II)Z
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|984|990|chunkX|param|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty|canSpawnStructureAtCoords|(II)Z|chunkX|0
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|992|998|chunkZ|param|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty|canSpawnStructureAtCoords|(II)Z|chunkZ|1
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1051|1065|WorldgenConfig|class|net.michaelsebero.noworldgen5you.WorldgenConfig|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1066|1093|isScateredStructureDisabled|method|net.michaelsebero.noworldgen5you.WorldgenConfig|isScateredStructureDisabled|(Ljava/lang/String;)Z
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1094|1098|Type|class|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty.Type|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1099|1108|WITCH_HUT|field|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty.Type|WITCH_HUT
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1109|1113|name|method|java.lang.Enum|name|()Ljava/lang/String;
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1116|1127|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1156|1162|Biomes|class|net.minecraft.init.Biomes|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1163|1172|SWAMPLAND|field|net.minecraft.init.Biomes|SWAMPLAND
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1257|1271|WorldgenConfig|class|net.michaelsebero.noworldgen5you.WorldgenConfig|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1272|1299|isScateredStructureDisabled|method|net.michaelsebero.noworldgen5you.WorldgenConfig|isScateredStructureDisabled|(Ljava/lang/String;)Z
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1300|1304|Type|class|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty.Type|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1305|1319|DESERT_PYRAMID|field|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty.Type|DESERT_PYRAMID
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1320|1324|name|method|java.lang.Enum|name|()Ljava/lang/String;
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1327|1338|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1368|1374|Biomes|class|net.minecraft.init.Biomes|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1375|1381|DESERT|field|net.minecraft.init.Biomes|DESERT
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1394|1400|Biomes|class|net.minecraft.init.Biomes|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1401|1413|DESERT_HILLS|field|net.minecraft.init.Biomes|DESERT_HILLS
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1490|1504|WorldgenConfig|class|net.michaelsebero.noworldgen5you.WorldgenConfig|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1505|1532|isScateredStructureDisabled|method|net.michaelsebero.noworldgen5you.WorldgenConfig|isScateredStructureDisabled|(Ljava/lang/String;)Z
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1533|1537|Type|class|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty.Type|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1538|1543|IGLOO|field|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty.Type|IGLOO
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1544|1548|name|method|java.lang.Enum|name|()Ljava/lang/String;
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1551|1562|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1592|1598|Biomes|class|net.minecraft.init.Biomes|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1599|1609|ICE_PLAINS|field|net.minecraft.init.Biomes|ICE_PLAINS
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1622|1628|Biomes|class|net.minecraft.init.Biomes|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1629|1639|COLD_TAIGA|field|net.minecraft.init.Biomes|COLD_TAIGA
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1724|1738|WorldgenConfig|class|net.michaelsebero.noworldgen5you.WorldgenConfig|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1739|1766|isScateredStructureDisabled|method|net.michaelsebero.noworldgen5you.WorldgenConfig|isScateredStructureDisabled|(Ljava/lang/String;)Z
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1767|1771|Type|class|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty.Type|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1772|1785|JUNGLE_TEMPLE|field|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty.Type|JUNGLE_TEMPLE
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1786|1790|name|method|java.lang.Enum|name|()Ljava/lang/String;
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1793|1804|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1834|1840|Biomes|class|net.minecraft.init.Biomes|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1841|1847|JUNGLE|field|net.minecraft.init.Biomes|JUNGLE
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1860|1866|Biomes|class|net.minecraft.init.Biomes|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1867|1879|JUNGLE_HILLS|field|net.minecraft.init.Biomes|JUNGLE_HILLS
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1942|1967|canSpawnStructureAtCoords|method|net.minecraft.world.gen.structure.MapGenStructure|canSpawnStructureAtCoords|(II)Z
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1968|1974|chunkX|param|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty|canSpawnStructureAtCoords|(II)Z|chunkX|0
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java|1976|1982|chunkZ|param|net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty|canSpawnStructureAtCoords|(II)Z|chunkZ|1
+   Method End: canSpawnStructureAtCoords(II)Z
+Class End  : net.michaelsebero.noworldgen5you.world.gen.MapGenScatteredFeaturesEmpty
+endProcessing "net/michaelsebero/noworldgen5you/world/gen/MapGenScatteredFeaturesEmpty.java"
+
+startProcessing "net/michaelsebero/noworldgen5you/world/gen/MapGenStrongholdEmpty.java" md5: 47da6710e90a837da8a2d4456841650d
+@|net/michaelsebero/noworldgen5you/world/gen/MapGenStrongholdEmpty.java|8|50|net.michaelsebero.noworldgen5you.world.gen|package|net.michaelsebero.noworldgen5you.world.gen|(file)
+Class Start: net.michaelsebero.noworldgen5you.world.gen.MapGenStrongholdEmpty
+   @|net/michaelsebero/noworldgen5you/world/gen/MapGenStrongholdEmpty.java|206|227|MapGenStrongholdEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenStrongholdEmpty|false
+   @|net/michaelsebero/noworldgen5you/world/gen/MapGenStrongholdEmpty.java|236|252|MapGenStronghold|class|net.minecraft.world.gen.structure.MapGenStronghold|false
+   Method Start: generate(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenStrongholdEmpty.java|302|309|worldIn|param|net.michaelsebero.noworldgen5you.world.gen.MapGenStrongholdEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|worldIn|0
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenStrongholdEmpty.java|315|316|x|param|net.michaelsebero.noworldgen5you.world.gen.MapGenStrongholdEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|x|1
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenStrongholdEmpty.java|322|323|z|param|net.michaelsebero.noworldgen5you.world.gen.MapGenStrongholdEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|z|2
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenStrongholdEmpty.java|337|343|primer|param|net.michaelsebero.noworldgen5you.world.gen.MapGenStrongholdEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|primer|3
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenStrongholdEmpty.java|261|269|Override|class|java.lang.Override|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenStrongholdEmpty.java|286|294|generate|method|net.minecraft.world.gen.MapGenBase|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenStrongholdEmpty.java|296|301|World|class|net.minecraft.world.World|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenStrongholdEmpty.java|325|336|ChunkPrimer|class|net.minecraft.world.chunk.ChunkPrimer|false
+   Method End: generate(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+   Method Start: canSpawnStructureAtCoords(II)Z
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenStrongholdEmpty.java|419|425|chunkX|param|net.michaelsebero.noworldgen5you.world.gen.MapGenStrongholdEmpty|canSpawnStructureAtCoords|(II)Z|chunkX|0
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenStrongholdEmpty.java|431|437|chunkZ|param|net.michaelsebero.noworldgen5you.world.gen.MapGenStrongholdEmpty|canSpawnStructureAtCoords|(II)Z|chunkZ|1
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenStrongholdEmpty.java|360|368|Override|class|java.lang.Override|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenStrongholdEmpty.java|388|413|canSpawnStructureAtCoords|method|net.minecraft.world.gen.structure.MapGenStructure|canSpawnStructureAtCoords|(II)Z
+   Method End: canSpawnStructureAtCoords(II)Z
+Class End  : net.michaelsebero.noworldgen5you.world.gen.MapGenStrongholdEmpty
+endProcessing "net/michaelsebero/noworldgen5you/world/gen/MapGenStrongholdEmpty.java"
+
+startProcessing "net/michaelsebero/noworldgen5you/world/gen/MapGenVillageEmpty.java" md5: 98e370e21c0bc2c022ad9f65c4a308f2
+@|net/michaelsebero/noworldgen5you/world/gen/MapGenVillageEmpty.java|8|50|net.michaelsebero.noworldgen5you.world.gen|package|net.michaelsebero.noworldgen5you.world.gen|(file)
+Class Start: net.michaelsebero.noworldgen5you.world.gen.MapGenVillageEmpty
+   @|net/michaelsebero/noworldgen5you/world/gen/MapGenVillageEmpty.java|203|221|MapGenVillageEmpty|class|net.michaelsebero.noworldgen5you.world.gen.MapGenVillageEmpty|false
+   @|net/michaelsebero/noworldgen5you/world/gen/MapGenVillageEmpty.java|230|243|MapGenVillage|class|net.minecraft.world.gen.structure.MapGenVillage|false
+   Method Start: generate(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenVillageEmpty.java|293|300|worldIn|param|net.michaelsebero.noworldgen5you.world.gen.MapGenVillageEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|worldIn|0
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenVillageEmpty.java|306|307|x|param|net.michaelsebero.noworldgen5you.world.gen.MapGenVillageEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|x|1
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenVillageEmpty.java|313|314|z|param|net.michaelsebero.noworldgen5you.world.gen.MapGenVillageEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|z|2
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenVillageEmpty.java|328|334|primer|param|net.michaelsebero.noworldgen5you.world.gen.MapGenVillageEmpty|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|primer|3
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenVillageEmpty.java|252|260|Override|class|java.lang.Override|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenVillageEmpty.java|277|285|generate|method|net.minecraft.world.gen.MapGenBase|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenVillageEmpty.java|287|292|World|class|net.minecraft.world.World|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenVillageEmpty.java|316|327|ChunkPrimer|class|net.minecraft.world.chunk.ChunkPrimer|false
+   Method End: generate(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+   Method Start: canSpawnStructureAtCoords(II)Z
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenVillageEmpty.java|410|416|chunkX|param|net.michaelsebero.noworldgen5you.world.gen.MapGenVillageEmpty|canSpawnStructureAtCoords|(II)Z|chunkX|0
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenVillageEmpty.java|422|428|chunkZ|param|net.michaelsebero.noworldgen5you.world.gen.MapGenVillageEmpty|canSpawnStructureAtCoords|(II)Z|chunkZ|1
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenVillageEmpty.java|351|359|Override|class|java.lang.Override|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenVillageEmpty.java|379|404|canSpawnStructureAtCoords|method|net.minecraft.world.gen.structure.MapGenStructure|canSpawnStructureAtCoords|(II)Z
+   Method End: canSpawnStructureAtCoords(II)Z
+Class End  : net.michaelsebero.noworldgen5you.world.gen.MapGenVillageEmpty
+endProcessing "net/michaelsebero/noworldgen5you/world/gen/MapGenVillageEmpty.java"
+
+startProcessing "net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java" md5: 884288c9a563966b36910f989ca5515c
+@|net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java|8|50|net.michaelsebero.noworldgen5you.world.gen|package|net.michaelsebero.noworldgen5you.world.gen|(file)
+Class Start: net.michaelsebero.noworldgen5you.world.gen.MapGenWoodlandMansion
+   @|net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java|205|226|MapGenWoodlandMansion|class|net.michaelsebero.noworldgen5you.world.gen.MapGenWoodlandMansion|false
+   @|net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java|235|250|WoodlandMansion|class|net.minecraft.world.gen.structure.WoodlandMansion|false
+   Method Start: MapGenWoodlandMansion()V
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java|265|286|MapGenWoodlandMansion|method|net.michaelsebero.noworldgen5you.world.gen.MapGenWoodlandMansion|MapGenWoodlandMansion|()V
+   Method End: MapGenWoodlandMansion()V
+   Method Start: generate(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java|367|374|worldIn|param|net.michaelsebero.noworldgen5you.world.gen.MapGenWoodlandMansion|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|worldIn|0
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java|380|381|x|param|net.michaelsebero.noworldgen5you.world.gen.MapGenWoodlandMansion|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|x|1
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java|387|388|z|param|net.michaelsebero.noworldgen5you.world.gen.MapGenWoodlandMansion|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|z|2
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java|402|408|primer|param|net.michaelsebero.noworldgen5you.world.gen.MapGenWoodlandMansion|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V|primer|3
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java|326|334|Override|class|java.lang.Override|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java|351|359|generate|method|net.minecraft.world.gen.MapGenBase|generate|(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java|361|366|World|class|net.minecraft.world.World|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java|390|401|ChunkPrimer|class|net.minecraft.world.chunk.ChunkPrimer|false
+   Method End: generate(Lnet/minecraft/world/World;IILnet/minecraft/world/chunk/ChunkPrimer;)V
+   Method Start: canSpawnStructureAtCoords(II)Z
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java|484|490|chunkX|param|net.michaelsebero.noworldgen5you.world.gen.MapGenWoodlandMansion|canSpawnStructureAtCoords|(II)Z|chunkX|0
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java|496|502|chunkZ|param|net.michaelsebero.noworldgen5you.world.gen.MapGenWoodlandMansion|canSpawnStructureAtCoords|(II)Z|chunkZ|1
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java|425|433|Override|class|java.lang.Override|false
+      @|net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java|453|478|canSpawnStructureAtCoords|method|net.minecraft.world.gen.structure.MapGenStructure|canSpawnStructureAtCoords|(II)Z
+   Method End: canSpawnStructureAtCoords(II)Z
+Class End  : net.michaelsebero.noworldgen5you.world.gen.MapGenWoodlandMansion
+endProcessing "net/michaelsebero/noworldgen5you/world/gen/MapGenWoodlandMansion.java"
+

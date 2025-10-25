@@ -7,8 +7,8 @@
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["Darkhax"],
-  "credits": "Darkosto for the idea!",
+  "authorList": ["Michael Sebero"],
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
