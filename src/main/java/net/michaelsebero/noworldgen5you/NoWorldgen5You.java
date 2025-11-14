@@ -15,6 +15,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.terraingen.InitMapGenEvent;
 import net.minecraftforge.event.terraingen.PopulateChunkEvent.Populate;
 import net.minecraftforge.event.world.WorldEvent.Load;
+import net.minecraftforge.event.world.WorldEvent.Unload;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLFingerprintViolationEvent;
@@ -24,6 +25,9 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.eventhandler.Event.Result;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.util.HashMap;
+import java.util.Map;
 
 @Mod(
    modid = "noworldgen5you",
@@ -37,7 +41,7 @@ public class NoWorldgen5You {
    private static MapGenScatteredFeaturesEmpty SCATTERED_GEN;
    private static int lastDimensionLoaded = Integer.MIN_VALUE;
    private static int dimensionLoadCounter = 0;
-   private static boolean firstCaveGenOfWorld = true;
+   private static String currentWorldName = null;
 
    @EventHandler
    public void onPreInit(FMLPreInitializationEvent event) {
@@ -52,14 +56,38 @@ public class NoWorldgen5You {
       if (!loadEvent.getWorld().isRemote) {
          int dimension = loadEvent.getWorld().provider.getDimension();
          
-         // When dimension 0 loads, mark that the next cave gen should reset the counter
+         // When dimension 0 loads, reset counter for new world session
          if (dimension == 0) {
-            firstCaveGenOfWorld = true;
-            LOG.info("Overworld loading - Next cave generation will reset counter");
+            // Get the world's save folder name as identifier
+            String worldName = null;
+            if (loadEvent.getWorld().getSaveHandler() != null && 
+                loadEvent.getWorld().getSaveHandler().getWorldDirectory() != null) {
+               worldName = loadEvent.getWorld().getSaveHandler().getWorldDirectory().getName();
+            }
+            
+            if (worldName != null && !worldName.equals(currentWorldName)) {
+               LOG.info("New world session detected: {} (previous: {})", worldName, currentWorldName);
+               dimensionLoadCounter = 0;
+               currentWorldName = worldName;
+            }
          }
          
          lastDimensionLoaded = dimension;
-         LOG.info("World loaded - Dimension ID: {}, Name: {}", lastDimensionLoaded, loadEvent.getWorld().provider.getDimensionType().getName());
+         LOG.info("World loaded - Dimension ID: {}, Name: {}, Load counter: {}", lastDimensionLoaded, loadEvent.getWorld().provider.getDimensionType().getName(), dimensionLoadCounter);
+      }
+   }
+
+   @SubscribeEvent
+   public void onWorldUnload(Unload unloadEvent) {
+      if (!unloadEvent.getWorld().isRemote) {
+         int dimension = unloadEvent.getWorld().provider.getDimension();
+         
+         // When dimension 0 unloads, reset for next session
+         if (dimension == 0) {
+            LOG.info("Dimension 0 unloaded, resetting counter for next session");
+            dimensionLoadCounter = 0;
+            currentWorldName = null;
+         }
       }
    }
 
@@ -68,6 +96,26 @@ public class NoWorldgen5You {
       if (WorldgenConfig.isPopulateDisabled(event.getType().name().toLowerCase())) {
          event.setResult(Result.DENY);
       }
+   }
+
+   private String getWorldIdentifier(InitMapGenEvent event) {
+      // Try to get world name from the original generator's world field
+      try {
+         java.lang.reflect.Field worldField = event.getOriginalGen().getClass().getSuperclass().getDeclaredField("world");
+         worldField.setAccessible(true);
+         Object worldObj = worldField.get(event.getOriginalGen());
+         if (worldObj != null && worldObj instanceof net.minecraft.world.World) {
+            net.minecraft.world.World world = (net.minecraft.world.World) worldObj;
+            if (world.getSaveHandler() != null && world.getSaveHandler().getWorldDirectory() != null) {
+               return world.getSaveHandler().getWorldDirectory().getName();
+            }
+         }
+      } catch (Exception e) {
+         // Reflection failed, fall back to current world name
+      }
+      
+      // Fall back to the last known world name
+      return currentWorldName;
    }
 
    @SubscribeEvent(
@@ -85,14 +133,8 @@ public class NoWorldgen5You {
             boolean isOurEmpty = event.getNewGen() instanceof MapGenCaveEmpty;
             boolean isBetterCaves = packageName.contains("bettercaves");
             
-            // Reset counter on first cave gen after dimension 0 load
-            if (firstCaveGenOfWorld) {
-               dimensionLoadCounter = 0;
-               firstCaveGenOfWorld = false;
-               LOG.info("First cave generation after overworld load - Resetting dimension load counter");
-            }
-            
-            ++dimensionLoadCounter;
+            // Increment counter for each cave generation event
+            dimensionLoadCounter++;
             
             if (isVanillaCaves && isMinecraftPackage && !isOurEmpty) {
                LOG.info("Vanilla caves detected, replacing with empty generator");
